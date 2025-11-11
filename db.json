@@ -1,0 +1,123 @@
+{
+	"colaboradores": [
+		{
+			"id": 1, 
+			"nome": "Marco Antônio",
+			"email": "marcoantonio@email.com",
+			"cpf": "111.111.111-11",
+			"admin": true,
+			"idCargo": 1,
+			"idDepartamento": 1
+		},
+		{
+			"id": 2,
+			"nome": "Pablo Rodrigues",
+			"email": "pablorodrigues@email.com",
+			"cpf": "222.222.222-22",
+			"admin": false,
+			"idCargo": 2,
+			"idDepartamento": 1
+		},
+		{
+			"id": 3,
+			"nome": "Carlos Eduardo",
+			"email": "carloseduardo@email.com",
+			"cpf": "333.333.333-33",
+			"admin": true,
+			"idCargo": 3,
+			"idDepartamento": 2
+		}
+	],
+	"departamentos": [
+		{
+			"id": 1,
+			"nome": "Desenvolvimento",
+			"idGerente": 1
+		},
+		{
+			"id": 2,
+			"nome": "Recursos Humanos",
+			"idGerente": 3
+		}
+	],
+	"cargos": [
+		{
+			"id": 1,
+			"nome": "Desenvolvedor Backend",
+			"salarioBase": 7500.00
+		},
+		{
+			"id": 2,
+			"nome": "Desenvolvedor Frontend",
+			"salarioBase": 4800.00
+		},
+		{
+			"id": 3,
+			"nome": "Analista de RH",
+			"salarioBase": 6000.00
+		}
+	],
+	"registroPonto": [
+		{
+			"id": 1,
+			"idColaborador": 1,
+			"dataHoraEntrada": "2025-10-27T09:02:15",
+			"dataHoraSaida": "2025-10-27T18:05:30"
+		},
+		{
+			"id": 2,
+			"idColaborador": 2,
+			"dataHoraEntrada": "2025-10-27T08:59:00",
+			"dataHoraSaida": "2025-10-27T18:01:10"
+		},
+		{
+			"id": 3,
+			"idColaborador": 3,
+			"dataHoraEntrada": "2025-10-27T09:10:00",
+			"dataHoraSaida": "2025-10-27T18:15:00"
+		},
+		{
+			"id": 4,
+			"idColaborador": 1,
+			"dataHoraEntrada": "2025-10-28T09:05:00",
+			"dataHoraSaida": null
+		}
+	],
+	"documentos": [
+		{
+			"id": 1,
+			"idColaborador": 1,
+			"tipoDocumento": "Contrato",
+			"nomeArquivo": "contrato_marco.pdf",
+			"dataEmissao": "2023-01-15"
+		},
+		{
+			"id": 2,
+			"idColaborador": 1,
+			"tipoDocumento": "ExameAdmissional",
+			"nomeArquivo": "exame_marco.pdf",
+			"dataEmissao": "2023-01-10"
+		},
+		{
+			"id": 3,
+			"idColaborador": 2,
+			"tipoDocumento": "Contrato",
+			"nomeArquivo": "contrato_pablo.pdf",
+			"dataEmissao": "2024-05-20"
+		},
+		{
+			"id": 4,
+			"idColaborador": 2,
+			"tipoDocumento": "ExameAdmissional",
+			"nomeArquivo": "exame_pablo.pdf",
+			"dataEmissao": "2024-05-15"
+		},
+		{
+			"id": 5,
+			"idColaborador": 3,
+			"tipoDocumento": "ExameMedico",
+			"nomeArquivo": "exame_periodico_carlos.pdf",
+			"dataEmissao": "2025-02-10"
+		}
+	]
+}
