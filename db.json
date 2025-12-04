@@ -2,6 +2,7 @@
 	"colaboradores": [
 		{
 			"id": 1, 
+			"status": "Ativo",
 			"nome": "Marco Antônio",
 			"email": "marcoantonio@email.com",
 			"cpf": "111.111.111-11",
@@ -11,6 +12,7 @@
 		},
 		{
 			"id": 2,
+			"status": "Ativo",
 			"nome": "Pablo Rodrigues",
 			"email": "pablorodrigues@email.com",
 			"cpf": "222.222.222-22",
@@ -20,12 +22,23 @@
 		},
 		{
 			"id": 3,
+			"status": "Ativo",
 			"nome": "Carlos Eduardo",
 			"email": "carloseduardo@email.com",
 			"cpf": "333.333.333-33",
-			"admin": true,
+			"admin": false,
 			"idCargo": 3,
 			"idDepartamento": 2
+		},
+		{
+			"id": 4,
+			"status": "Inativo",
+			"nome": "Gustavo Mendes",
+			"email": "gustavomendes@email.com",
+			"cpf": "444.444.444-44",
+			"admin": false,
+			"idCargo": 1,
+			"idDepartamento": 1
 		}
 	],
 	"departamentos": [
