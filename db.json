@@ -8,7 +8,10 @@
 			"cpf": "111.111.111-11",
 			"admin": true,
 			"idCargo": 1,
-			"idDepartamento": 1
+			"idDepartamento": 1,
+			"rua": "Rua A",
+			"num": "1",
+			"bairro": "Bairro A"
 		},
 		{
 			"id": 2,
@@ -19,6 +22,9 @@
 			"admin": false,
 			"idCargo": 2,
 			"idDepartamento": 1
+			"rua": "Rua A",
+			"num": "2",
+			"bairro": "Bairro A"
 		},
 		{
 			"id": 3,
@@ -29,6 +35,9 @@
 			"admin": false,
 			"idCargo": 3,
 			"idDepartamento": 2
+			"rua": "Rua B",
+			"num": "2",
+			"bairro": "Bairro B"
 		},
 		{
 			"id": 4,
@@ -39,6 +48,9 @@
 			"admin": false,
 			"idCargo": 1,
 			"idDepartamento": 1
+			"rua": "Rua C",
+			"num": "3",
+			"bairro": "Bairro C"
 		}
 	],
 	"departamentos": [
