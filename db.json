@@ -21,7 +21,7 @@
 			"cpf": "222.222.222-22",
 			"admin": false,
 			"idCargo": 2,
-			"idDepartamento": 1
+			"idDepartamento": 1,
 			"rua": "Rua A",
 			"num": "2",
 			"bairro": "Bairro A"
@@ -34,7 +34,7 @@
 			"cpf": "333.333.333-33",
 			"admin": false,
 			"idCargo": 3,
-			"idDepartamento": 2
+			"idDepartamento": 2,
 			"rua": "Rua B",
 			"num": "2",
 			"bairro": "Bairro B"
@@ -47,7 +47,7 @@
 			"cpf": "444.444.444-44",
 			"admin": false,
 			"idCargo": 1,
-			"idDepartamento": 1
+			"idDepartamento": 1,
 			"rua": "Rua C",
 			"num": "3",
 			"bairro": "Bairro C"
