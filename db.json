@@ -1,148 +1,219 @@
 {
-	"colaboradores": [
-		{
-			"id": 1, 
-			"status": "Ativo",
-			"nome": "Marco Antônio",
-			"email": "marcoantonio@email.com",
-			"cpf": "111.111.111-11",
-			"admin": true,
-			"idCargo": 1,
-			"idDepartamento": 1,
-			"rua": "Rua A",
-			"num": "1",
-			"bairro": "Bairro A"
-		},
-		{
-			"id": 2,
-			"status": "Ativo",
-			"nome": "Pablo Rodrigues",
-			"email": "pablorodrigues@email.com",
-			"cpf": "222.222.222-22",
-			"admin": false,
-			"idCargo": 2,
-			"idDepartamento": 1,
-			"rua": "Rua A",
-			"num": "2",
-			"bairro": "Bairro A"
-		},
-		{
-			"id": 3,
-			"status": "Ativo",
-			"nome": "Carlos Eduardo",
-			"email": "carloseduardo@email.com",
-			"cpf": "333.333.333-33",
-			"admin": false,
-			"idCargo": 3,
-			"idDepartamento": 2,
-			"rua": "Rua B",
-			"num": "2",
-			"bairro": "Bairro B"
-		},
-		{
-			"id": 4,
-			"status": "Inativo",
-			"nome": "Gustavo Mendes",
-			"email": "gustavomendes@email.com",
-			"cpf": "444.444.444-44",
-			"admin": false,
-			"idCargo": 1,
-			"idDepartamento": 1,
-			"rua": "Rua C",
-			"num": "3",
-			"bairro": "Bairro C"
-		}
-	],
-	"departamentos": [
-		{
-			"id": 1,
-			"nome": "Desenvolvimento",
-			"idGerente": 1
-		},
-		{
-			"id": 2,
-			"nome": "Recursos Humanos",
-			"idGerente": 3
-		}
-	],
-	"cargos": [
-		{
-			"id": 1,
-			"nome": "Desenvolvedor Backend",
-			"salarioBase": 7500.00
-		},
-		{
-			"id": 2,
-			"nome": "Desenvolvedor Frontend",
-			"salarioBase": 4800.00
-		},
-		{
-			"id": 3,
-			"nome": "Analista de RH",
-			"salarioBase": 6000.00
-		}
-	],
-	"registroPonto": [
-		{
-			"id": 1,
-			"idColaborador": 1,
-			"dataHoraEntrada": "2025-10-27T09:02:15",
-			"dataHoraSaida": "2025-10-27T18:05:30"
-		},
-		{
-			"id": 2,
-			"idColaborador": 2,
-			"dataHoraEntrada": "2025-10-27T08:59:00",
-			"dataHoraSaida": "2025-10-27T18:01:10"
-		},
-		{
-			"id": 3,
-			"idColaborador": 3,
-			"dataHoraEntrada": "2025-10-27T09:10:00",
-			"dataHoraSaida": "2025-10-27T18:15:00"
-		},
-		{
-			"id": 4,
-			"idColaborador": 1,
-			"dataHoraEntrada": "2025-10-28T09:05:00",
-			"dataHoraSaida": null
-		}
-	],
-	"documentos": [
-		{
-			"id": 1,
-			"idColaborador": 1,
-			"tipoDocumento": "Contrato",
-			"nomeArquivo": "contrato_marco.pdf",
-			"dataEmissao": "2023-01-15"
-		},
-		{
-			"id": 2,
-			"idColaborador": 1,
-			"tipoDocumento": "ExameAdmissional",
-			"nomeArquivo": "exame_marco.pdf",
-			"dataEmissao": "2023-01-10"
-		},
-		{
-			"id": 3,
-			"idColaborador": 2,
-			"tipoDocumento": "Contrato",
-			"nomeArquivo": "contrato_pablo.pdf",
-			"dataEmissao": "2024-05-20"
-		},
-		{
-			"id": 4,
-			"idColaborador": 2,
-			"tipoDocumento": "ExameAdmissional",
-			"nomeArquivo": "exame_pablo.pdf",
-			"dataEmissao": "2024-05-15"
-		},
-		{
-			"id": 5,
-			"idColaborador": 3,
-			"tipoDocumento": "ExameMedico",
-			"nomeArquivo": "exame_periodico_carlos.pdf",
-			"dataEmissao": "2025-02-10"
-		}
-	]
+  "colaboradores": [
+    {
+      "id": 1,
+      "status": "Ativo",
+      "nome": "Marco Antônio",
+      "email": "marcoantonio@email.com",
+      "cpf": "111.111.111-11",
+      "admin": true,
+      "idCargo": 1,
+      "idDepartamento": 1,
+      "rua": "Rua A",
+      "num": "1",
+      "bairro": "Bairro A"
+    },
+    {
+      "id": 2,
+      "status": "Ativo",
+      "nome": "Pablo Rodrigues",
+      "email": "pablorodrigues@email.com",
+      "cpf": "222.222.222-22",
+      "admin": false,
+      "idCargo": 2,
+      "idDepartamento": 1,
+      "rua": "Rua A",
+      "num": "2",
+      "bairro": "Bairro A"
+    },
+    {
+      "id": 3,
+      "status": "Ativo",
+      "nome": "Carlos Eduardo",
+      "email": "carloseduardo@email.com",
+      "cpf": "333.333.333-33",
+      "admin": false,
+      "idCargo": 3,
+      "idDepartamento": 2,
+      "rua": "Rua B",
+      "num": "2",
+      "bairro": "Bairro B"
+    },
+    {
+      "id": 4,
+      "status": "Inativo",
+      "nome": "Gustavo Mendes",
+      "email": "gustavomendes@email.com",
+      "cpf": "444.444.444-44",
+      "admin": false,
+      "idCargo": 1,
+      "idDepartamento": 1,
+      "rua": "Rua C",
+      "num": "3",
+      "bairro": "Bairro C"
+    },
+    {
+      "id": 5,
+      "status": "Ativo",
+      "nome": "Fernanda Lima",
+      "email": "fernandalima@email.com",
+      "cpf": "555.555.555-55",
+      "admin": false,
+      "idCargo": 4,
+      "idDepartamento": 3,
+      "rua": "Rua D",
+      "num": "45",
+      "bairro": "Centro"
+    },
+    {
+      "id": 6,
+      "status": "Ativo",
+      "nome": "Rafael Souza",
+      "email": "rafaelsouza@email.com",
+      "cpf": "666.666.666-66",
+      "admin": false,
+      "idCargo": 5,
+      "idDepartamento": 1,
+      "rua": "Rua E",
+      "num": "120",
+      "bairro": "Jardim Norte"
+    }
+  ],
+
+  "departamentos": [
+    {
+      "id": 1,
+      "nome": "Desenvolvimento",
+      "idGerente": 1
+    },
+    {
+      "id": 2,
+      "nome": "Recursos Humanos",
+      "idGerente": 3
+    },
+    {
+      "id": 3,
+      "nome": "Financeiro",
+      "idGerente": 5
+    }
+  ],
+
+  "cargos": [
+    {
+      "id": 1,
+      "nome": "Desenvolvedor Backend",
+      "salarioBase": 7500.0
+    },
+    {
+      "id": 2,
+      "nome": "Desenvolvedor Frontend",
+      "salarioBase": 4800.0
+    },
+    {
+      "id": 3,
+      "nome": "Analista de RH",
+      "salarioBase": 6000.0
+    },
+    {
+      "id": 4,
+      "nome": "Analista Financeiro",
+      "salarioBase": 6500.0
+    },
+    {
+      "id": 5,
+      "nome": "Tech Lead",
+      "salarioBase": 9800.0
+    }
+  ],
+
+  "registroPonto": [
+    {
+      "id": 1,
+      "idColaborador": 1,
+      "dataHoraEntrada": "2025-10-27T09:02:15",
+      "dataHoraSaida": "2025-10-27T18:05:30"
+    },
+    {
+      "id": 2,
+      "idColaborador": 2,
+      "dataHoraEntrada": "2025-10-27T08:59:00",
+      "dataHoraSaida": "2025-10-27T18:01:10"
+    },
+    {
+      "id": 3,
+      "idColaborador": 3,
+      "dataHoraEntrada": "2025-10-27T09:10:00",
+      "dataHoraSaida": "2025-10-27T18:15:00"
+    },
+    {
+      "id": 4,
+      "idColaborador": 1,
+      "dataHoraEntrada": "2025-10-28T09:05:00",
+      "dataHoraSaida": null
+    },
+    {
+      "id": 5,
+      "idColaborador": 5,
+      "dataHoraEntrada": "2025-10-28T08:50:00",
+      "dataHoraSaida": "2025-10-28T17:55:00"
+    },
+    {
+      "id": 6,
+      "idColaborador": 6,
+      "dataHoraEntrada": "2025-10-28T09:00:00",
+      "dataHoraSaida": "2025-10-28T18:30:00"
+    }
+  ],
+
+  "documentos": [
+    {
+      "id": 1,
+      "idColaborador": 1,
+      "tipoDocumento": "Contrato",
+      "nomeArquivo": "contrato_marco.pdf",
+      "dataEmissao": "2023-01-15"
+    },
+    {
+      "id": 2,
+      "idColaborador": 1,
+      "tipoDocumento": "ExameAdmissional",
+      "nomeArquivo": "exame_marco.pdf",
+      "dataEmissao": "2023-01-10"
+    },
+    {
+      "id": 3,
+      "idColaborador": 2,
+      "tipoDocumento": "Contrato",
+      "nomeArquivo": "contrato_pablo.pdf",
+      "dataEmissao": "2024-05-20"
+    },
+    {
+      "id": 4,
+      "idColaborador": 2,
+      "tipoDocumento": "ExameAdmissional",
+      "nomeArquivo": "exame_pablo.pdf",
+      "dataEmissao": "2024-05-15"
+    },
+    {
+      "id": 5,
+      "idColaborador": 3,
+      "tipoDocumento": "ExameMedico",
+      "nomeArquivo": "exame_periodico_carlos.pdf",
+      "dataEmissao": "2025-02-10"
+    },
+    {
+      "id": 6,
+      "idColaborador": 5,
+      "tipoDocumento": "Contrato",
+      "nomeArquivo": "contrato_fernanda.pdf",
+      "dataEmissao": "2022-11-01"
+    },
+    {
+      "id": 7,
+      "idColaborador": 6,
+      "tipoDocumento": "Certificacao",
+      "nomeArquivo": "certificacao_java_rafael.pdf",
+      "dataEmissao": "2024-08-12"
+    }
+  ]
 }
